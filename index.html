@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <title>Página Netflix</title>
+  </head>
+
+  <body>
+    <header>
+      <a href="" class="logo"><img src="./img/logo.png" alt="" /></a>
+      <ul class="navgation">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Tv Shows</a></li>
+        <li><a href="#">Movies</a></li>
+        <li><a href="#">Latest</a></li>
+        <li><a href="#">My List</a></li>
+      </ul>
+
+      <div class="search">
+        <input type="text" placeholder="Search" />
+        <i class="fas fa-search"></i>
+        </div>
+      </div>
+    </header>
+
+    <div class="banner">
+      <img class="bg" src="./img/bg.jpg" alt="" />
+
+      <div class="content">
+        <img class="movieTitle" src="./img/name.png" alt="" />
+        <h4>
+          <span>2020</span>
+          <span><i>12+</i></span>
+          <span>1h 55min</span>
+          <span>Action</span>
+        </h4>
+
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum
+          deserunt impedit nemo veniam quod praesentium aspernatur voluptates,
+          omnis ea delectus voluptatibus, officia consectetur ipsum quo
+          numquam velit blanditiis alias adipisci.
+        </p>
+
+        <div class="buttons">
+          <a href="#"><i class="fa fa-play" aria-hidden="true">Play</i></a>
+          <a href="#"><i class="fa fa-plus" aria-hidden="true">My List</i></a>
+        </div>
+
+
+    </div>
+    <a class="play" onclick="toggleVideo()"><img src="./img/play.png">Wath Trailer</a>
+
+    <div class="trailer">
+        <video src="./img/Disney's Mulan _ Official Trailer.mp4" controls="true"></video>
+        <img class="close" src="./img/close.png" onclick="toggleVideo()">
+    </div>
+
+    <script type="text/javascript" src="./script.js"></script>
+  </body>
+
+</html>
